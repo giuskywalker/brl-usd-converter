@@ -7,12 +7,6 @@ import os
 
 url_dollar = "https://www.xe.com/pt/currencyconverter/convert/?Amount=1&From=BRL&To=USD"
 url_real = "https://www.xe.com/pt/currencyconverter/convert/?Amount=1&From=USD&To=BRL"
-#page = requests.get(url)
-#soup = BeautifulSoup(page.content, 'html.parser')
-#value_locate = soup.find_all("div", class_="unit-rates___StyledDiv-sc-1dk593y-0 dEqdnx")
-#value = str(value_locate).split()
-#comma_value = value[5]
-#dollar_value = comma_value.replace(",", ".")
 today = date.today()
 
 while True:
