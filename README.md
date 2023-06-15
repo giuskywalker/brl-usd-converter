@@ -1,6 +1,10 @@
 # brl-usd-converter
 Simple python project that i did to exercise a little bit of web scrapping.
 
+# How it works?
+
+It's really simple, using the requests library from python, the code will access a website that brings the quotation, so everytime the code runs, a new value should appear.
+
 ## Usage:
 `python3 money.py`
 
