@@ -30,7 +30,8 @@ while True:
         print("")
         value2convert = float(input("How much you want to convert?: "))
         final_value = real_value * value2convert
-        print(f"$ {value2convert} USD are {final_value} BRL. $")
+        final_rounded = round(final_value, 2)
+        print(f"$ {value2convert} USD are {final_rounded} BRL. $")
         print("")
         input("[press enter to continue]")
         os.system("clear")
@@ -45,7 +46,8 @@ while True:
         print("")
         value2convert = float(input("How much you want to convert?: "))
         final_value = dollar_value * value2convert
-        print(f"$ {value2convert} BRL are {final_value} USD. $")
+        final_rounded = round(final_value, 2)
+        print(f"$ {value2convert} BRL are {final_rounded} USD. $")
         print("")
         input("[press enter to continue]")
         os.system("clear")
